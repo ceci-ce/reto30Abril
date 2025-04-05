@@ -16,3 +16,8 @@ if (nota - int(nota) >= 0.5): #int(nota) quita los decimales y nota - int(nota) 
     print(int(nota) + 1)
 else:
     print(int(nota))
+
+   # Entonces:
+#-Si esa parte es mayor o igual a 0.5, redondea hacia arriba
+#-Si es menor a 0.5, redondea hacia abajo
+#Si la parte decimal es mayor o igual a 0.5, le suma 1. Si la parte es menor o igual a 0.5, solo muestra la parte entera
